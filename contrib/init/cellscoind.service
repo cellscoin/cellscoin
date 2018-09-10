@@ -1,0 +1,26 @@
+[Unit]
+Description=CELLSCOIN's distributed currency daemon
+After=network.target
+
+[Service]
+User=cellscoin
+Group=cellscoin
+
+Type=forking
+PIDFile=/var/lib/cellscoind/cellscoind.pid
+
+ExecStart=/usr/bin/cellscoind -daemon -pid=/var/lib/cellscoind/cellscoind.pid \
+          -conf=/etc/cellscoin/cellscoin.conf -datadir=/var/lib/cellscoind
+
+ExecStop=-/usr/bin/cellscoin-cli -conf=/etc/cellscoin/cellscoin.conf \
+         -datadir=/var/lib/cellscoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

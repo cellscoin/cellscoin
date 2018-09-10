@@ -1,0 +1,26 @@
+# /etc/conf.d/cellscoind: config file for /etc/init.d/cellscoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cellscoin/cellscoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cellscoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cellscoind.pid"
+
+# Where to write cellscoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cellscoind"
+
+# User and group to own cellscoind process
+#BITCOIND_USER="cellscoin"
+#BITCOIND_GROUP="cellscoin"
+
+# Path to cellscoind executable
+#BITCOIND_BIN="/usr/bin/cellscoind"
+
+# Nice value to run cellscoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

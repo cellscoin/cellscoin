@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cellscoin_bg.qm</file>
+        <file alias="ca">locale/cellscoin_ca.qm</file>
+        <file alias="cs">locale/cellscoin_cs.qm</file>
+        <file alias="da">locale/cellscoin_da.qm</file>
+        <file alias="de">locale/cellscoin_de.qm</file>
+        <file alias="en">locale/cellscoin_en.qm</file>
+        <file alias="en_US">locale/cellscoin_en_US.qm</file>
+        <file alias="es">locale/cellscoin_es.qm</file>
+        <file alias="fi">locale/cellscoin_fi.qm</file>
+        <file alias="fr_FR">locale/cellscoin_fr_FR.qm</file>
+        <file alias="hr">locale/cellscoin_hr.qm</file>
+        <file alias="it">locale/cellscoin_it.qm</file>
+        <file alias="ja">locale/cellscoin_ja.qm</file>
+        <file alias="ko_KR">locale/cellscoin_ko_KR.qm</file>
+        <file alias="nl">locale/cellscoin_nl.qm</file>
+        <file alias="pl">locale/cellscoin_pl.qm</file>
+        <file alias="pt">locale/cellscoin_pt.qm</file>
+        <file alias="pt_BR">locale/cellscoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/cellscoin_ro_RO.qm</file>
+        <file alias="ru">locale/cellscoin_ru.qm</file>
+        <file alias="sk">locale/cellscoin_sk.qm</file>
+        <file alias="sv">locale/cellscoin_sv.qm</file>
+        <file alias="tr">locale/cellscoin_tr.qm</file>
+        <file alias="uk">locale/cellscoin_uk.qm</file>
+        <file alias="zh_CN">locale/cellscoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cellscoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
